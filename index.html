@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CK ERROR Virtual Numbers</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>📲 CK ERROR Virtual Number Service</h1>
+<p>Choose country • Pay • Get number manually</p>
+
+<select id="country">
+  <option>India</option>
+  <option>USA</option>
+  <option>UK</option>
+  <option>Canada</option>
+</select>
+
+<select id="price">
+  <option>₹100</option>
+  <option>₹120</option>
+  <option>₹150</option>
+  <option>₹180</option>
+</select>
+
+<h3>Pay via UPI</h3>
+<img src="qr.png" width="200">
+<p>UPI ID: <b>9046579718@ybl</b></p>
+
+<input id="txnid" placeholder="Enter UPI Transaction ID">
+
+<button onclick="submitOrder()">Submit Order</button>
+
+<p id="msg"></p>
+
+<a href="terms.html">Terms & Disclaimer</a>
+
+<script src="script.js"></script>
+</body>
+  </html>
